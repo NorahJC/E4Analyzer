@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <com.jjoe64.graphview.helper.GraphViewXML
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:seriesData="-2=1;-1=0;0=2;1=0;2=-1;3=3;4=2;5=3;6=0"
+        app:seriesColor="#4286f4"
+        app:seriesTitle="BVP"
+        android:title="Biofeedback Data"
+     />
+    <!--<com.jjoe64.graphview.helper.GraphViewXML-->
+        <!--android:id="@+id/graph2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--/>-->
+
+</RelativeLayout>
+
